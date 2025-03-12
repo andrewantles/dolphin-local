@@ -1,19 +1,17 @@
-# Things I can think of right now that I want to remember
-
 ## Dependencies:
-I use `pipenv install <package>` for just about everything.  
-When that doesn't work, I use `pipenv run pip install <package>`
+Use `pipenv install <package>` for just about everything.  
+When that doesn't work, use `pipenv run pip install <package>`
 
 Install most of the dependencies directly from the Pipfile, except for:
 - torch
 - cuda
 
 ### torch
-I go directly to the pytorch install website, and it gives me the `pip` command I need to install everything.  
+Go directly to the pytorch install website, and it gives the `pip` command needed to install everything.  
 Again, use `pipenv run pip install <package>` if needed.
 
 ### cuda
-I go to the following URL and use the `pipenv run <command>` option:
+Go to the following URL and use the `pipenv run <command>` option:
 - https://docs.nvidia.com/cuda/archive/12.6.0/cuda-quick-start-guide/index.html#pip-wheels-windows
 
 ## Running the model
